@@ -1,2 +1,27 @@
 # Comparison-Between-iPhone_14-and-iPhone_15-sales-
 I compared the sales of iPhone 14 and iPhone 15 and finding out the variance percentage in thier sales and absolute percentage (to learn how to apply variance in dax)
+I did the analysis on: 
+1. dim_stores
+2. fact_sales_iPhone14
+3. fact_sales_iPhone15
+
+
+------------------------------------------------------------------------
+dim_stores: This table contains all the information about stores
+1. store_id: Unique identifier for each store.
+2. country_name: Name of the country where the store is located.
+
+
+------------------------------------------------------------------------
+
+fact_sales_IPhone14: This table contains aggregated sales data for iPhone14 in September, October, and November of 2022.
+1.	month: This column represents month and year in the format 'Mmm_yy'.
+2.	store_id: Unique identifier for each store.
+3.	iphone14: This column represents the actual sales data for a specific store in a given month for Iphone14.
+
+------------------------------------------------------------------------
+
+fact_sales_IPhone15: This table contains aggregated sales data for iPhone15 in September, October, and November of 2023.
+1.	month: This column represents month and year in the format 'Mmm_yy'.
+2.	store_id: Unique identifier for each store.
+3.	iphone15: This column represents the actual sales data for a specific store in a given month for Iphone15.
